@@ -3,7 +3,7 @@
  * main - Entry
  * Return: Always 0 (Success)
  */
-int main(main)
+int main(void)
 {
 	int n;
 
