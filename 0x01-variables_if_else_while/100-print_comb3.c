@@ -24,6 +24,10 @@ int main(void)
 					putchar(' ');
 				}
 			}
+			c++
 		}
+		d++
 	}
+	putchar('\n');
+	return (0);
 }
