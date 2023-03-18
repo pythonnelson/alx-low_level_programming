@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #define ERR_MSG "Error"
-
 /**
  * is_digit - checks if a string contains a non-digit char
  * @s: string to be evaluated
@@ -61,7 +60,6 @@ int main(int argc, char *argv[])
 	len2 = _strlen(s2);
 	len = len1 + len2 + 1;
 	result = malloc(sizeof(int) * len);
-
 	if (!result)
 		return (1);
 	for (i = 0; i <= len1 + len2; i++)
