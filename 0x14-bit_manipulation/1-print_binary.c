@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * print_binary - prints the binary equivalent of a decimal number
- * @n: number to print in binary
+ * print_binary - this prints the binary equivalent of a decimal number
+ * @n: the number to be printed in binary
+ *
+ * Return: the converted number
  */
 void print_binary(unsigned long int n)
 {
@@ -10,7 +12,7 @@ void print_binary(unsigned long int n)
 
 	unsigned long int current;
 
-	for (i = 63; i>=0; i--)
+	for (i = 63; i >= 0; i--)
 	{
 		current = n >> i;
 
